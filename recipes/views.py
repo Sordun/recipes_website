@@ -9,7 +9,7 @@ from .models import Recipe, Ingredient
 class HomeView(View):
 
     @staticmethod
-    def get():
+    def get(request):
         return redirect(reverse('recipes_list'))
 
 
@@ -26,7 +26,7 @@ class RecipeListView(View):
             recipes_list = recipes_list.filter(ingredients__name__in=ingredients_query).distinct()
 
         context = {'recipes_list': recipes_list, 'ingredients_list': Ingredient.objects.all().order_by('name')}
-        return render(request, 'recipes/recipelist.html', context)
+        return render(request, 'recipes/recipes_list.html', context)
 
 
 class RecipeDetailView(View):
@@ -37,7 +37,7 @@ class RecipeDetailView(View):
             recipe = Recipe.objects.get(pk=recipe_id)
         except Recipe.DoesNotExist:
             raise Http404('Такого рецепта не существует')
-        return render(request, 'recipes/recipedetail.html', {'recipe': recipe})
+        return render(request, 'recipes/recipes_details.html', {'recipe': recipe})
 
 
 class CreateView(View):
