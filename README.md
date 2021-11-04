@@ -62,13 +62,13 @@ python manage.py migrate
 python manage.py collectstatic
 ```
 
-#### 6. Создание суперпользователя
+#### 6. Создание суперпользователя:
 
 ```bash
 python manage.py createsuperuser
 ```
 
-#### 7. Добавление фикстур
+#### 7. Добавление фикстур:
 
 ```bash
 python manage.py loaddata ingredients
