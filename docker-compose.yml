@@ -2,15 +2,11 @@ version: '3.8'
 services:
   app:
     build: .
+    command: python /app/manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
     ports:
       - 8000:8000
-    volumes:
-      - ./app:/app
-    env_file:
-      - .env
-    command: python manage.py runserver 0.0.0.0:8000
-    links:
-      - db
     depends_on:
       - db
   db:
@@ -23,3 +19,5 @@ services:
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
     ports:
       - 5432:5432
+volumes:
+  postgres_data:
