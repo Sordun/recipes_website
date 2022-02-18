@@ -1,4 +1,5 @@
 .env
+.venv
 .md
 .yml
 .git

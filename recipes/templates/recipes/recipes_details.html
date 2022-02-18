@@ -2,19 +2,22 @@
 {% block content %}
 <div class="row" id="box-search">
     <div class="thumbnail text-center">
-        <img alt="" class="card-img-top" style="filter:brightness(60%)">
         <div class="caption">
             <h3 style="color:Black">{{ recipe.heading }}</h3>
         </div>
     </div>
 </div>
 <div class="container-fluid">
-    <p><h5 class="card-title">Ингредиенты:</h5></p>
+    <p>
+    <h5 class="card-title">Ингредиенты:</h5>
+    </p>
     <ul>{% for ingredient in recipe.ingredients.all %}
         <li>{{ ingredient.name }}</li>
         {% endfor %}
     </ul>
-    <p><h5 class="card-title">Рецепт:</h5></p>
+    <p>
+    <h5 class="card-title">Рецепт:</h5>
+    </p>
     <p>{{ recipe.text }}</p>
 </div>
 {% endblock %}

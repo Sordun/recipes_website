@@ -7,6 +7,12 @@
 Проект разработан на фреймворке Django 3.2.8, в качестве базы данных используется PostgreSQL 14. Для приложения создан
 Docker контейнер.
 
+## Настройка проекта
+Создайте `.env` файл в корне репозитория:
+```bash
+copy .env.dist .env
+```
+
 ## Сборка образов и запуск контейнеров
 
 В корне репозитория выполните команду:
@@ -14,6 +20,7 @@ Docker контейнер.
 ```bash
 docker-compose up --build
 ```
+
 При первом запуске данный процесс может занять несколько минут.
 
 #### Остановка контейнеров
@@ -24,54 +31,42 @@ docker-compose up --build
 docker-compose stop
 ```
 
-#### Инициализация проекта
+## Инициализация проекта
 
 Команды выполняются внутри контейнера приложения:
 
 ```bash
 docker-compose exec app bash
 ```
+Выход ctrl + z или ctrl + p + q
 
-### 1. Выполните команду для создания виртуального окружения:
+### 1. Создание миграций:
 
 ```bash
-python -m venv env
+python ./manage.py makemigrations
 ```
 
-#### 2. Активируйте созданное виртуальное окружение при помощи команды:
-
+### 2. Применение миграций:
 ```bash
-env\Scripts\activate
+python ./manage.py migrate
 ```
 
-#### 3. Установите необходимые пакеты в активированное окружение при помощи команды:
+#### 2. Сборка статики:
 
 ```bash
-pip install -r requirements.txt
+python ./manage.py collectstatic
 ```
 
-#### 4. Применение миграций:
+#### 3. Создание суперпользователя:
 
 ```bash
-python manage.py migrate
+python ./manage.py createsuperuser
 ```
 
-#### 5. Сборка статики:
+#### 4. Добавление фикстур:
 
 ```bash
-python manage.py collectstatic
-```
-
-#### 6. Создание суперпользователя:
-
-```bash
-python manage.py createsuperuser
-```
-
-#### 7. Добавление фикстур:
-
-```bash
-python manage.py loaddata ingredients
+python ./manage.py loaddata ingredients
 ```
 
 Проект доступен по адресу http://127.0.0.1:8000
