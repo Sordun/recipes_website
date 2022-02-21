@@ -25,7 +25,7 @@ class Ingredient(TimeStampMixin):
 
 
 class Recipe(TimeStampMixin):
-    """Рецепт: название, описание, ингредиенты, фотография"""
+    """Рецепт: название, описание, ингредиенты"""
 
     heading = models.CharField("Название", max_length=50, unique=True)
     text = models.TextField("Рецепт")
