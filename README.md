@@ -18,7 +18,7 @@ copy .env.dist .env
 В корне репозитория выполните команду:
 
 ```bash
-docker-compose up --build
+docker-compose up --build -d
 ```
 
 При первом запуске данный процесс может занять несколько минут.
@@ -40,13 +40,8 @@ docker-compose exec app bash
 ```
 Выход ctrl + z или ctrl + p + q
 
-### 1. Создание миграций:
+### 1. Применение миграций:
 
-```bash
-python ./manage.py makemigrations
-```
-
-### 2. Применение миграций:
 ```bash
 python ./manage.py migrate
 ```
@@ -66,7 +61,7 @@ python ./manage.py createsuperuser
 #### 4. Добавление фикстур:
 
 ```bash
-python ./manage.py loaddata ingredients
+python ./manage.py loaddata ingredients recipes
 ```
 
 Проект доступен по адресу http://127.0.0.1:8000

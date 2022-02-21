@@ -4,14 +4,14 @@ from django.db import models
 class TimeStampMixin(models.Model):
     """Время создания и обновления рецептов"""
 
-    created_at = models.DateTimeField("Время создания рецепта", auto_now_add=True)
-    updated_at = models.DateTimeField("Время обновления рецепта", auto_now=True)
+    created_at = models.DateTimeField("Время создания", auto_now_add=True)
+    updated_at = models.DateTimeField("Время обновления", auto_now=True)
 
     class Meta:
         abstract = True
 
 
-class Ingredient(models.Model):
+class Ingredient(TimeStampMixin):
     """Ингредиенты"""
 
     name = models.CharField(max_length=50, unique=True)
