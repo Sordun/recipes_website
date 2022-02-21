@@ -1,0 +1,398 @@
+[
+{
+    "model": "recipes.ingredient",
+    "pk": 1,
+    "fields": {
+        "created_at": "2022-02-21T17:10:34.323Z",
+        "updated_at": "2022-02-21T17:10:34.323Z",
+        "name": "молоко"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 2,
+    "fields": {
+        "created_at": "2022-02-21T17:10:43.740Z",
+        "updated_at": "2022-02-21T17:10:43.740Z",
+        "name": "растительное масло"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 3,
+    "fields": {
+        "created_at": "2022-02-21T17:10:55.093Z",
+        "updated_at": "2022-02-21T17:10:55.093Z",
+        "name": "вода"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 4,
+    "fields": {
+        "created_at": "2022-02-21T17:11:03.689Z",
+        "updated_at": "2022-02-21T17:11:03.689Z",
+        "name": "сливочное масло"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 5,
+    "fields": {
+        "created_at": "2022-02-21T17:11:10.396Z",
+        "updated_at": "2022-02-21T17:11:10.396Z",
+        "name": "сахар"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 6,
+    "fields": {
+        "created_at": "2022-02-21T17:11:17.040Z",
+        "updated_at": "2022-02-21T17:11:17.040Z",
+        "name": "соль"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 7,
+    "fields": {
+        "created_at": "2022-02-21T17:11:24.000Z",
+        "updated_at": "2022-02-21T17:11:24.000Z",
+        "name": "гречневая крупа"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 8,
+    "fields": {
+        "created_at": "2022-02-21T17:11:34.244Z",
+        "updated_at": "2022-02-21T17:11:34.244Z",
+        "name": "пшеничная мука"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 9,
+    "fields": {
+        "created_at": "2022-02-21T17:11:39.384Z",
+        "updated_at": "2022-02-21T17:11:39.384Z",
+        "name": "кленовый сироп"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 10,
+    "fields": {
+        "created_at": "2022-02-21T17:11:43.246Z",
+        "updated_at": "2022-02-21T17:11:43.246Z",
+        "name": "чеснок"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 11,
+    "fields": {
+        "created_at": "2022-02-21T17:11:48.677Z",
+        "updated_at": "2022-02-21T17:11:48.677Z",
+        "name": "сушеная паприка"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 12,
+    "fields": {
+        "created_at": "2022-02-21T17:11:57.610Z",
+        "updated_at": "2022-02-21T17:11:57.610Z",
+        "name": "черный перец"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 13,
+    "fields": {
+        "created_at": "2022-02-21T17:12:01.280Z",
+        "updated_at": "2022-02-21T17:12:01.280Z",
+        "name": "лимон"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 14,
+    "fields": {
+        "created_at": "2022-02-21T17:12:06.447Z",
+        "updated_at": "2022-02-21T17:12:06.447Z",
+        "name": "коричневый сахар"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 15,
+    "fields": {
+        "created_at": "2022-02-21T17:12:11.896Z",
+        "updated_at": "2022-02-21T17:12:11.896Z",
+        "name": "оливковое масло"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 16,
+    "fields": {
+        "created_at": "2022-02-21T17:12:16.348Z",
+        "updated_at": "2022-02-21T17:12:16.348Z",
+        "name": "куриное филе"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 17,
+    "fields": {
+        "created_at": "2022-02-21T17:12:20.568Z",
+        "updated_at": "2022-02-21T17:12:20.568Z",
+        "name": "индейка"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 18,
+    "fields": {
+        "created_at": "2022-02-21T17:12:23.676Z",
+        "updated_at": "2022-02-21T17:12:23.676Z",
+        "name": "чернослив"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 19,
+    "fields": {
+        "created_at": "2022-02-21T17:12:26.782Z",
+        "updated_at": "2022-02-21T17:12:26.782Z",
+        "name": "имбирь"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 20,
+    "fields": {
+        "created_at": "2022-02-21T17:12:31.911Z",
+        "updated_at": "2022-02-21T17:12:31.911Z",
+        "name": "яйца"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 21,
+    "fields": {
+        "created_at": "2022-02-21T17:12:37.362Z",
+        "updated_at": "2022-02-21T17:12:37.362Z",
+        "name": "молоко сгущенное"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 22,
+    "fields": {
+        "created_at": "2022-02-21T17:12:40.965Z",
+        "updated_at": "2022-02-21T17:12:40.965Z",
+        "name": "шоколад"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 23,
+    "fields": {
+        "created_at": "2022-02-21T17:12:44.781Z",
+        "updated_at": "2022-02-21T17:12:44.781Z",
+        "name": "яблоки"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 24,
+    "fields": {
+        "created_at": "2022-02-21T17:12:50.415Z",
+        "updated_at": "2022-02-21T17:12:50.415Z",
+        "name": "лук"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 25,
+    "fields": {
+        "created_at": "2022-02-21T17:12:58.697Z",
+        "updated_at": "2022-02-21T17:12:58.697Z",
+        "name": "солёные огурцы"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 26,
+    "fields": {
+        "created_at": "2022-02-21T17:13:02.457Z",
+        "updated_at": "2022-02-21T17:13:02.457Z",
+        "name": "масло"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 27,
+    "fields": {
+        "created_at": "2022-02-21T17:13:05.805Z",
+        "updated_at": "2022-02-21T17:13:05.805Z",
+        "name": "мёд"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 28,
+    "fields": {
+        "created_at": "2022-02-21T17:13:09.463Z",
+        "updated_at": "2022-02-21T17:13:09.463Z",
+        "name": "сода"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 29,
+    "fields": {
+        "created_at": "2022-02-21T17:13:12.685Z",
+        "updated_at": "2022-02-21T17:13:12.685Z",
+        "name": "мука"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 30,
+    "fields": {
+        "created_at": "2022-02-21T17:13:17.709Z",
+        "updated_at": "2022-02-21T17:13:17.709Z",
+        "name": "отвешенная сметана"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 31,
+    "fields": {
+        "created_at": "2022-02-21T17:13:23.470Z",
+        "updated_at": "2022-02-21T17:13:23.470Z",
+        "name": "говяжий фарш"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 32,
+    "fields": {
+        "created_at": "2022-02-21T17:13:27.194Z",
+        "updated_at": "2022-02-21T17:13:27.194Z",
+        "name": "томатная паста"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 33,
+    "fields": {
+        "created_at": "2022-02-21T17:13:29.958Z",
+        "updated_at": "2022-02-21T17:13:29.958Z",
+        "name": "розмарин"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 34,
+    "fields": {
+        "created_at": "2022-02-21T17:13:32.773Z",
+        "updated_at": "2022-02-21T17:13:32.773Z",
+        "name": "морковь"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 35,
+    "fields": {
+        "created_at": "2022-02-21T17:13:36.086Z",
+        "updated_at": "2022-02-21T17:13:36.086Z",
+        "name": "перец"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 36,
+    "fields": {
+        "created_at": "2022-02-21T17:13:45.111Z",
+        "updated_at": "2022-02-21T17:13:45.111Z",
+        "name": "сыр"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 37,
+    "fields": {
+        "created_at": "2022-02-21T17:13:59.325Z",
+        "updated_at": "2022-02-21T17:13:59.325Z",
+        "name": "листы для лазаньи"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 38,
+    "fields": {
+        "created_at": "2022-02-21T17:14:03.851Z",
+        "updated_at": "2022-02-21T17:14:03.851Z",
+        "name": "мускатный орех"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 39,
+    "fields": {
+        "created_at": "2022-02-21T17:14:09.426Z",
+        "updated_at": "2022-02-21T17:14:09.426Z",
+        "name": "филе куриной грудки"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 40,
+    "fields": {
+        "created_at": "2022-02-21T17:14:13.404Z",
+        "updated_at": "2022-02-21T17:14:13.404Z",
+        "name": "копчёный бекон"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 41,
+    "fields": {
+        "created_at": "2022-02-21T17:14:17.388Z",
+        "updated_at": "2022-02-21T17:14:17.388Z",
+        "name": "помидоры черри"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 42,
+    "fields": {
+        "created_at": "2022-02-21T17:14:20.383Z",
+        "updated_at": "2022-02-21T17:14:20.383Z",
+        "name": "хлеб"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 43,
+    "fields": {
+        "created_at": "2022-02-21T17:14:23.635Z",
+        "updated_at": "2022-02-21T17:14:23.635Z",
+        "name": "пармезан"
+    }
+},
+{
+    "model": "recipes.ingredient",
+    "pk": 44,
+    "fields": {
+        "created_at": "2022-02-21T17:14:27.071Z",
+        "updated_at": "2022-02-21T17:14:27.071Z",
+        "name": "тимьян"
+    }
+}
+]
